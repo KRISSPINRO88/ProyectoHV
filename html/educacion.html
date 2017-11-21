@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <title>Mi hoja de vida</title>
+</head>
+<body>
+  <header>
+    <section id="stn_logo_principal">
+      <svg id="logo_principal" width="160px" heigth="160px" viewBox="0 0 160 160">
+        <image width="150px" heigth="150px" xlink:href="../img/logo_hv.svg"></image>
+      </svg>
+    </section>
+    <section id="stn_info_basica">
+      <fieldset>
+        <legend><h1>Hoja de Vida</h1></legend>
+        <h2>Cristian Raúl Pineda Rodríguez</h2>
+        <h3>Viernes, 09 de Septiembre de 1988 en Bogotá D.C.</h3>
+      </fieldset>
+    </section>
+  </header>
+  <nav>
+    <fieldset>
+      <legend><h3>Menús</h3></legend>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../html/educacion.html">Educación</a></li>
+        <li><a href="../html/experiencia.html">Experiencia</a></li>
+      </ul>
+    </fieldset>
+  </nav>
+  <section>
+    <fieldset>
+      <legend><h2>Educación</h2></legend>
+      <article id="estudios">
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2009</td>
+              <td>Universidad del Quindío</td>
+              <td>Armenia, Quindío</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2011</td>
+              <td>Sena Virtual</td>
+              <td>Bogotá D.C.</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>Fast Lane</td>
+              <td>Bogotá D.C.</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+      <article id="estudio">
+        <form autocomplete="on" name="miForm">
+          <h4>Agregar Estudios</h4>
+          <p><label for="sltAnio"><b>Año:</b></label>
+            <select id="sltAnio">
+              <option>2010</option>
+              <option>2011</option>
+              <option>2012</option>
+              <option>2013</option>
+              <option>2014</option>
+              <option>2015</option>
+              <option>2016</option>
+              <option>2017</option>
+            </select>
+          </p>
+          <p>
+            <label for="txtInstitucion"><b>Institución:</b></label>
+            <input type="text" name="txtInstitucion" value="" id="txtInstitucion" autofocus required>
+          </p>
+          <p>
+            <label for="txtLugar"><b>Lugar:</b></label>
+            <textarea name="txtLugar" id="txtLugar" rows="2" cols="23"></textarea>
+          </p>
+          <p>
+            <label for="txtCulminarEstudio"><b>¿Culminó?</b></label>
+            <br>
+            <input type="radio" name="txtCulminarEstudio" value="" id="txtCulminarEstudio"> Si
+            <input type="radio" name="txtCulminarEstudio" value="" id="txtCulminarEstudio"> No
+          </p>
+          <p><input type="reset" name="btnLimpiar" id="btnLimpiar" value="Limpiar">
+            <input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar">
+          </p>
+        </form>
+      </article>
+    </fieldset>
+  </section>
+  <footer>
+    <section>
+      <fieldset>
+        <legend><h4>Derechos reservados</h4></legend>
+        <p><b>Correo electrónico: </b><a href="mailto:crpr1988@gmail.com?subject=oportunidadlaboral">crpr1988@gmail.com</a></p>
+        <p><b>Teléfono de contacto: </b>3113707204</p>
+        <p><b>Redes sociales:</b>
+          <dl>
+            <dt>Facebook</dt>
+            <dd><a href="https://www.facebook.com/crpr1988" target="_blank">crpr1988</a></dd>
+            <dt>Instagram</dt>
+            <dd><a href="https://www.instagram.com/crpr1988/" target="_blank">crpr1988</a></dd>
+          </dl>
+        </p>
+      </fieldset>
+    </section>
+  </footer>
+</body>
+</html>
